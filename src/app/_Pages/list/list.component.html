@@ -1,1 +1,6 @@
-<p>list works!</p>
+<div class="container">
+  <div class="cord" *ngFor="let note of notes">
+    <h1>{{ note.title}} </h1>
+    <p>{{ note.description}}</p>
+  </div>
+</div>
